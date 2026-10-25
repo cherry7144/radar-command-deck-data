@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T05:19:56.100230+08:00",
+    "generated_at": "2026-10-25T09:19:43.249892+08:00",
     "generator": "merge_radar_latest.py v1.0",
     "rule": "只读合并:不修改任何雷达的规则/定时/原始JSON/历史记录",
     "cadence": "每4小时",
@@ -10,29 +10,29 @@
   "sources": {
     "prelaunch": {
       "name": "加密启动前雷达",
-      "round": "20261024-2010",
-      "round_time": "2026-10-25T04:10:22+08:00",
+      "round": "20261025-0010",
+      "round_time": "2026-10-25T08:10:21+08:00",
       "status": "ok",
       "note": null
     },
     "catalyst": {
       "name": "加密一级催化雷达",
-      "round": "20261024-2102",
-      "round_time": "2026-10-25T05:02:00+08:00",
+      "round": "20261025-0102",
+      "round_time": "2026-10-25T09:02:00+08:00",
       "status": "ok",
       "note": null
     },
     "capital": {
       "name": "资金验证层(Binance aggTrades)",
-      "round": "20261024-2102",
-      "round_time": "2026-10-25T05:02:00+08:00",
+      "round": "20261025-0102",
+      "round_time": "2026-10-25T09:02:00+08:00",
       "status": "ok",
       "note": null
     },
     "ema_squeeze": {
       "name": "4H均线密集雷达",
-      "round": "20261024-2000",
-      "round_time": "2026-10-25T04:00:00+08:00",
+      "round": "20261025-0000",
+      "round_time": "2026-10-25T08:00:00+08:00",
       "status": "ok",
       "note": "覆盖 49 个币"
     },
@@ -41,14 +41,14 @@
       "round": "2026-10-20",
       "round_time": "2026-10-20T11:26:58.203895+08:00",
       "status": "stale",
-      "note": "最新有效轮次已 113.9 小时(阈值48h),数据过期,沿用旧值；手动运行,非自动任务；轮次时间取自文件写入时间"
+      "note": "最新有效轮次已 117.9 小时(阈值48h),数据过期,沿用旧值；手动运行,非自动任务；轮次时间取自文件写入时间"
     },
     "etf": {
       "name": "币圈资金日报(ETF)",
       "round": "run_log_2026-10-22",
       "round_time": "2026-10-22T08:21:00+08:00",
-      "status": "ok",
-      "note": "源自 run_log(快照md已停更)"
+      "status": "stale",
+      "note": "最新有效轮次已 73.0 小时(阈值72h),数据过期,沿用旧值；源自 run_log(快照md已停更)"
     }
   },
   "assets": {
@@ -77,15 +77,15 @@
         "integration"
       ],
       "price": {
-        "value": 1188.6,
+        "value": 1207.31,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 1172.99,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261019-0400-001 入场价"
       },
@@ -93,7 +93,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.30x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261019-0400-001"
         },
@@ -114,7 +114,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "change_24h_pct": {
@@ -177,15 +177,15 @@
         "integration"
       ],
       "price": {
-        "value": 729.54,
+        "value": 738.91,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 723.85,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261019-1600-001 入场价"
       },
@@ -193,7 +193,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.18x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261019-1600-001"
         },
@@ -214,7 +214,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "change_24h_pct": {
@@ -250,7 +250,7 @@
         "ema_squeeze": {
           "value": "M1",
           "source": "ema_squeeze",
-          "updated_at": "2026-10-25T04:00:00+08:00",
+          "updated_at": "2026-10-25T08:00:00+08:00",
           "status": "ok",
           "note": "M1/M2/M3=密集,M0=不密集"
         }
@@ -260,15 +260,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 80375.8,
+        "value": 80771.9,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 82514.0,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-1600-001 入场价"
       },
@@ -276,33 +276,33 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.13x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-1600-001"
         },
         {
-          "value": "M1：EMA20/60/120宽度1.26%／偏离+1.85%",
+          "value": "M1：EMA20/60/120宽度1.29%／偏离+1.30%",
           "source": "ema_squeeze",
-          "updated_at": "2026-10-25T04:00:00+08:00",
+          "updated_at": "2026-10-25T08:00:00+08:00",
           "status": "ok"
         }
       ],
       "change_24h_pct": {
-        "value": -0.99,
+        "value": -0.39,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-25T04:00:00+08:00",
+        "updated_at": "2026-10-25T08:00:00+08:00",
         "status": "ok"
       },
       "change_7d_pct": {
-        "value": -1.38,
+        "value": -0.75,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-25T04:00:00+08:00",
+        "updated_at": "2026-10-25T08:00:00+08:00",
         "status": "ok"
       },
       "rs_vs_btc_7d": {
         "value": 0.0,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-25T04:00:00+08:00",
+        "updated_at": "2026-10-25T08:00:00+08:00",
         "status": "ok",
         "note": "相对BTC 7d超额(pct)"
       }
@@ -323,15 +323,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 0.4636,
+        "value": 0.469,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.5626,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-1600-002 入场价"
       },
@@ -339,7 +339,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=2.63x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-1600-002"
         },
@@ -377,15 +377,15 @@
         "prelaunch"
       ],
       "price": {
-        "value": 0.15758,
+        "value": 0.15835,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.21561,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-1600-003 入场价"
       },
@@ -393,7 +393,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.20x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-1600-003"
         }
@@ -416,15 +416,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 4.465e-06,
+        "value": 4.504e-06,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 4.532e-06,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-1600-004 入场价"
       },
@@ -432,7 +432,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=2.63x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-1600-004"
         },
@@ -446,7 +446,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "change_24h_pct": {
@@ -486,15 +486,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 1.28714,
+        "value": 1.29783,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 1.32716,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-2000-001 入场价"
       },
@@ -502,7 +502,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.40x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-2000-001"
         },
@@ -516,7 +516,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "change_24h_pct": {
@@ -564,15 +564,15 @@
         "integration"
       ],
       "price": {
-        "value": 76.11,
+        "value": 76.6,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 80.11,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-2000-002 入场价"
       },
@@ -580,7 +580,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.84x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-2000-002"
         },
@@ -594,7 +594,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "change_24h_pct": {
@@ -640,15 +640,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 56.6,
+        "value": 56.98,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 60.59,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-2000-003 入场价"
       },
@@ -656,7 +656,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=4.21x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-2000-003"
         },
@@ -694,15 +694,15 @@
         "prelaunch"
       ],
       "price": {
-        "value": 0.007555,
+        "value": 0.007641,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.008037,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-2000-004 入场价"
       },
@@ -710,7 +710,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=4.54x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-2000-004"
         }
@@ -732,15 +732,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 0.03571,
+        "value": 0.03605,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.03715,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-2000-005 入场价"
       },
@@ -748,7 +748,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=3.06x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-2000-005"
         },
@@ -795,15 +795,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 1.814,
+        "value": 1.836,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 2.069,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-2000-006 入场价"
       },
@@ -811,7 +811,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=3.69x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-2000-006"
         },
@@ -849,15 +849,15 @@
         "prelaunch"
       ],
       "price": {
-        "value": 0.28767,
+        "value": 0.28912,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.31632,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261020-2000-007 入场价"
       },
@@ -865,7 +865,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=6.90x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261020-2000-007"
         }
@@ -887,15 +887,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 8.905,
+        "value": 8.987,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 9.743,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261021-0000-001 入场价"
       },
@@ -903,7 +903,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.73x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261021-0000-001"
         },
@@ -942,15 +942,15 @@
         "capital"
       ],
       "price": {
-        "value": 1.722,
+        "value": 1.756,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 2.012,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261021-0000-002 入场价"
       },
@@ -958,7 +958,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.51x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261021-0000-002"
         }
@@ -966,7 +966,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       }
     },
@@ -978,15 +978,15 @@
         "capital"
       ],
       "price": {
-        "value": 0.1877,
+        "value": 0.1953,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.1959,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261021-0000-003 入场价"
       },
@@ -994,7 +994,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.25x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261021-0000-003"
         }
@@ -1002,7 +1002,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       }
     },
@@ -1013,15 +1013,15 @@
         "prelaunch"
       ],
       "price": {
-        "value": 0.1757,
+        "value": 0.1785,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.1965,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261021-0000-004 入场价"
       },
@@ -1029,7 +1029,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.02x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261021-0000-004"
         }
@@ -1052,15 +1052,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 136.32,
+        "value": 137.68,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 154.45,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261021-0000-005 入场价"
       },
@@ -1068,7 +1068,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.35x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261021-0000-005"
         },
@@ -1080,11 +1080,10 @@
         }
       ],
       "capital": {
-        "value": "数据不足",
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
       },
       "change_24h_pct": {
         "value": -1.83,
@@ -1122,15 +1121,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 0.10343,
+        "value": 0.10433,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.1137,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261021-0000-006 入场价"
       },
@@ -1138,7 +1137,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.87x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261021-0000-006"
         },
@@ -1186,15 +1185,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 274.52,
+        "value": 277.58,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 284.15,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261021-0400-001 入场价"
       },
@@ -1202,7 +1201,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=3.45x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261021-0400-001"
         },
@@ -1216,7 +1215,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "change_24h_pct": {
@@ -1255,15 +1254,15 @@
         "ema_squeeze"
       ],
       "price": {
-        "value": 51.708,
+        "value": 52.307,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 53.345,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261021-1600-001 入场价"
       },
@@ -1271,7 +1270,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=3.97x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261021-1600-001"
         },
@@ -1309,15 +1308,15 @@
         "prelaunch"
       ],
       "price": {
-        "value": 3.208,
+        "value": 3.239,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 3.937,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261021-2000-001 入场价"
       },
@@ -1325,7 +1324,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=2.01x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261021-2000-001"
         }
@@ -1338,15 +1337,15 @@
         "prelaunch"
       ],
       "price": {
-        "value": 0.000263,
+        "value": 0.000255,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.000775,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261022-1200-001 入场价"
       },
@@ -1354,7 +1353,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=5.32x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261022-1200-001"
         }
@@ -1367,15 +1366,15 @@
         "prelaunch"
       ],
       "price": {
-        "value": 3.051e-06,
+        "value": 3.156e-06,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 3.277e-06,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261023-1200-001 入场价"
       },
@@ -1383,7 +1382,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=3.19x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261023-1200-001"
         }
@@ -1396,15 +1395,15 @@
         "prelaunch"
       ],
       "price": {
-        "value": 0.03828,
+        "value": 0.03784,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.05349,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261024-0400-001 入场价"
       },
@@ -1412,7 +1411,7 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=2.31x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261024-0400-001"
         }
@@ -1427,13 +1426,13 @@
       "price": {
         "value": 1.211,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 1.215,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261024-0800-001 入场价"
       },
@@ -1441,7 +1440,7 @@
         {
           "value": "信号open｜结构:B2_压缩；资金异动:近3根均量/前20根均量=2.84x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261024-0800-001"
         }
@@ -1454,15 +1453,15 @@
         "prelaunch"
       ],
       "price": {
-        "value": 0.2543,
+        "value": 0.252,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok"
       },
       "entry_price": {
         "value": 0.2709,
         "source": "prelaunch",
-        "updated_at": "2026-10-25T04:10:22+08:00",
+        "updated_at": "2026-10-25T08:10:21+08:00",
         "status": "ok",
         "note": "signal_id=SIG-20261024-0800-002 入场价"
       },
@@ -1470,493 +1469,11 @@
         {
           "value": "信号open｜结构:B1_突破；资金异动:近3根均量/前20根均量=2.34x",
           "source": "prelaunch",
-          "updated_at": "2026-10-25T04:10:22+08:00",
+          "updated_at": "2026-10-25T08:10:21+08:00",
           "status": "ok",
           "note": "signal_id=SIG-20261024-0800-002"
         }
       ]
-    },
-    "ASTER": {
-      "symbol": "ASTER",
-      "ratings": {
-        "ema_squeeze": {
-          "value": "M2",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-09T16:00:00+08:00",
-          "status": "ok",
-          "note": "M1/M2/M3=密集,M0=不密集"
-        },
-        "integration": {
-          "value": "B",
-          "source": "integration",
-          "updated_at": "2026-10-20T11:26:58.203895+08:00",
-          "status": "ok",
-          "note": "B级观察（新增）"
-        }
-      },
-      "linked_sources": [
-        "capital",
-        "ema_squeeze",
-        "integration"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      },
-      "price": {
-        "value": 0.7,
-        "source": "integration",
-        "updated_at": "2026-10-20T11:26:58.203895+08:00",
-        "status": "ok",
-        "note": "报告内价格"
-      },
-      "change_24h_pct": {
-        "value": -1.95,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-09T16:00:00+08:00",
-        "status": "ok"
-      },
-      "change_7d_pct": {
-        "value": -6.6,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-09T16:00:00+08:00",
-        "status": "ok"
-      },
-      "technical": [
-        {
-          "value": "M2：EMA20/60/120宽度1.66%／偏离+2.34%",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-09T16:00:00+08:00",
-          "status": "ok"
-        }
-      ],
-      "rs_vs_btc_7d": {
-        "value": -2.55,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-09T16:00:00+08:00",
-        "status": "ok",
-        "note": "相对BTC 7d超额(pct)"
-      },
-      "catalyst": {
-        "value": "依据：CZ 发文称买入长期持有（价格一度 +25% 后回吐，现约 $0.7026）＋阶段 6 战略回购 $1.4M 运行中；未启动→轻度兑现（D0）。",
-        "source": "integration",
-        "updated_at": "2026-10-20T11:26:58.203895+08:00",
-        "status": "ok",
-        "note": "共振依据"
-      }
-    },
-    "ATH": {
-      "symbol": "ATH",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "BGB": {
-      "symbol": "BGB",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
-    },
-    "CCD": {
-      "symbol": "CCD",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "CPOOL": {
-      "symbol": "CPOOL",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "DATA": {
-      "symbol": "DATA",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "ENS": {
-      "symbol": "ENS",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
-    },
-    "ETH": {
-      "symbol": "ETH",
-      "ratings": {
-        "ema_squeeze": {
-          "value": "M0",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-23T00:00:00+08:00",
-          "status": "ok",
-          "note": "M1/M2/M3=密集,M0=不密集"
-        }
-      },
-      "linked_sources": [
-        "capital",
-        "ema_squeeze"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      },
-      "price": {
-        "value": 2396.16,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-23T00:00:00+08:00",
-        "status": "ok"
-      },
-      "change_24h_pct": {
-        "value": -4.55,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-23T00:00:00+08:00",
-        "status": "ok"
-      },
-      "change_7d_pct": {
-        "value": -1.73,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-23T00:00:00+08:00",
-        "status": "ok"
-      },
-      "technical": [
-        {
-          "value": "M0：EMA20/60/120宽度2.54%／偏离+2.62%",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-23T00:00:00+08:00",
-          "status": "ok"
-        }
-      ],
-      "rs_vs_btc_7d": {
-        "value": -0.81,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-23T00:00:00+08:00",
-        "status": "ok",
-        "note": "相对BTC 7d超额(pct)"
-      }
-    },
-    "ETHFI": {
-      "symbol": "ETHFI",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
-    },
-    "GMX": {
-      "symbol": "GMX",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
-    },
-    "GRVT": {
-      "symbol": "GRVT",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "INJ": {
-      "symbol": "INJ",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
-    },
-    "JST": {
-      "symbol": "JST",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
-    },
-    "KNTQ": {
-      "symbol": "KNTQ",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "LEO": {
-      "symbol": "LEO",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "LINK": {
-      "symbol": "LINK",
-      "ratings": {
-        "ema_squeeze": {
-          "value": "M0",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-15T00:00:00+08:00",
-          "status": "ok",
-          "note": "M1/M2/M3=密集,M0=不密集"
-        }
-      },
-      "linked_sources": [
-        "capital",
-        "ema_squeeze"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      },
-      "price": {
-        "value": 12.40788,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-15T00:00:00+08:00",
-        "status": "ok"
-      },
-      "change_24h_pct": {
-        "value": -3.69,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-15T00:00:00+08:00",
-        "status": "ok"
-      },
-      "change_7d_pct": {
-        "value": -7.56,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-15T00:00:00+08:00",
-        "status": "ok"
-      },
-      "technical": [
-        {
-          "value": "M0：EMA20/60/120宽度2.51%／偏离+5.74%",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-15T00:00:00+08:00",
-          "status": "ok"
-        }
-      ],
-      "rs_vs_btc_7d": {
-        "value": -5.32,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-15T00:00:00+08:00",
-        "status": "ok",
-        "note": "相对BTC 7d超额(pct)"
-      }
-    },
-    "LIT": {
-      "symbol": "LIT",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "MNT": {
-      "symbol": "MNT",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "MORPHO": {
-      "symbol": "MORPHO",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
-    },
-    "NEAR": {
-      "symbol": "NEAR",
-      "ratings": {
-        "ema_squeeze": {
-          "value": "M0",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-24T04:00:00+08:00",
-          "status": "ok",
-          "note": "M1/M2/M3=密集,M0=不密集"
-        }
-      },
-      "linked_sources": [
-        "capital",
-        "ema_squeeze"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      },
-      "price": {
-        "value": 4.7336,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-24T04:00:00+08:00",
-        "status": "ok"
-      },
-      "change_24h_pct": {
-        "value": -3.73,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-24T04:00:00+08:00",
-        "status": "ok"
-      },
-      "change_7d_pct": {
-        "value": -5.84,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-24T04:00:00+08:00",
-        "status": "ok"
-      },
-      "technical": [
-        {
-          "value": "M0：EMA20/60/120宽度1.58%／偏离+4.75%",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-24T04:00:00+08:00",
-          "status": "ok"
-        }
-      ],
-      "rs_vs_btc_7d": {
-        "value": -5.48,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-24T04:00:00+08:00",
-        "status": "ok",
-        "note": "相对BTC 7d超额(pct)"
-      }
-    },
-    "OKB": {
-      "symbol": "OKB",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "数据不足",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
-      }
     },
     "ONDO": {
       "symbol": "ONDO",
@@ -1976,7 +1493,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "price": {
@@ -2013,26 +1530,13 @@
         "note": "相对BTC 7d超额(pct)"
       }
     },
-    "ORCA": {
-      "symbol": "ORCA",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
-    },
-    "POL": {
-      "symbol": "POL",
+    "LINK": {
+      "symbol": "LINK",
       "ratings": {
         "ema_squeeze": {
           "value": "M0",
           "source": "ema_squeeze",
-          "updated_at": "2026-10-07T12:00:00+08:00",
+          "updated_at": "2026-10-15T00:00:00+08:00",
           "status": "ok",
           "note": "M1/M2/M3=密集,M0=不密集"
         }
@@ -2044,153 +1548,41 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "price": {
-        "value": 0.1035,
+        "value": 12.40788,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-07T12:00:00+08:00",
+        "updated_at": "2026-10-15T00:00:00+08:00",
         "status": "ok"
       },
       "change_24h_pct": {
-        "value": -5.08,
+        "value": -3.69,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-07T12:00:00+08:00",
+        "updated_at": "2026-10-15T00:00:00+08:00",
         "status": "ok"
       },
       "change_7d_pct": {
-        "value": -11.04,
+        "value": -7.56,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-07T12:00:00+08:00",
+        "updated_at": "2026-10-15T00:00:00+08:00",
         "status": "ok"
       },
       "technical": [
         {
-          "value": "M0：EMA20/60/120宽度1.45%／偏离+5.12%",
+          "value": "M0：EMA20/60/120宽度2.51%／偏离+5.74%",
           "source": "ema_squeeze",
-          "updated_at": "2026-10-07T12:00:00+08:00",
+          "updated_at": "2026-10-15T00:00:00+08:00",
           "status": "ok"
         }
       ],
       "rs_vs_btc_7d": {
-        "value": -12.07,
+        "value": -5.32,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-07T12:00:00+08:00",
+        "updated_at": "2026-10-15T00:00:00+08:00",
         "status": "ok",
         "note": "相对BTC 7d超额(pct)"
-      }
-    },
-    "RL": {
-      "symbol": "RL",
-      "ratings": {
-        "ema_squeeze": {
-          "value": "M1",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-03T04:00:00+08:00",
-          "status": "ok",
-          "note": "M1/M2/M3=密集,M0=不密集"
-        }
-      },
-      "linked_sources": [
-        "capital",
-        "ema_squeeze"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      },
-      "price": {
-        "value": 0.99995,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-03T04:00:00+08:00",
-        "status": "ok"
-      },
-      "change_24h_pct": {
-        "value": -0.0,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-03T04:00:00+08:00",
-        "status": "ok"
-      },
-      "change_7d_pct": {
-        "value": -0.0,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-03T04:00:00+08:00",
-        "status": "ok"
-      },
-      "technical": [
-        {
-          "value": "M1：EMA20/60/120宽度0.00%／偏离+0.00%",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-03T04:00:00+08:00",
-          "status": "ok"
-        }
-      ],
-      "rs_vs_btc_7d": {
-        "value": -0.35,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-03T04:00:00+08:00",
-        "status": "ok",
-        "note": "相对BTC 7d超额(pct)"
-      }
-    },
-    "SEI": {
-      "symbol": "SEI",
-      "ratings": {
-        "integration": {
-          "value": "C",
-          "source": "integration",
-          "updated_at": "2026-10-20T11:26:58.203895+08:00",
-          "status": "ok",
-          "note": "C级维持"
-        }
-      },
-      "linked_sources": [
-        "capital",
-        "integration"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      },
-      "price": {
-        "value": 0.0604,
-        "source": "integration",
-        "updated_at": "2026-10-20T11:26:58.203895+08:00",
-        "status": "ok",
-        "note": "报告内价格"
-      },
-      "catalyst": {
-        "value": "依据：REX-Osprey Staked SEI ETF 10-23 目标生效日剩 3 天（D2/轻度兑现，本轮下调）。",
-        "source": "integration",
-        "updated_at": "2026-10-20T11:26:58.203895+08:00",
-        "status": "ok",
-        "note": "共振依据"
-      },
-      "risks": [
-        {
-          "value": "反向证据：OG.com SEI 永续首成交仅 2 笔约 $13，流动性极薄（2 周观察期至 10-30）；资金三窗口全负（昨日口径）。",
-          "source": "integration",
-          "updated_at": "2026-10-20T11:26:58.203895+08:00",
-          "status": "ok"
-        }
-      ]
-    },
-    "SKY": {
-      "symbol": "SKY",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
       }
     },
     "SOL": {
@@ -2219,7 +1611,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "price": {
@@ -2272,8 +1664,8 @@
         }
       ]
     },
-    "SUI": {
-      "symbol": "SUI",
+    "INJ": {
+      "symbol": "INJ",
       "ratings": {},
       "linked_sources": [
         "capital"
@@ -2281,104 +1673,53 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       }
     },
-    "TIA": {
-      "symbol": "TIA",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
-    },
-    "TRX": {
-      "symbol": "TRX",
+    "SEI": {
+      "symbol": "SEI",
       "ratings": {
-        "ema_squeeze": {
-          "value": "M1",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-24T04:00:00+08:00",
+        "integration": {
+          "value": "C",
+          "source": "integration",
+          "updated_at": "2026-10-20T11:26:58.203895+08:00",
           "status": "ok",
-          "note": "M1/M2/M3=密集,M0=不密集"
+          "note": "C级维持"
         }
       },
       "linked_sources": [
         "capital",
-        "ema_squeeze"
+        "integration"
       ],
       "capital": {
-        "value": "数据不足",
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
       },
       "price": {
-        "value": 0.329722,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-24T04:00:00+08:00",
-        "status": "ok"
+        "value": 0.0604,
+        "source": "integration",
+        "updated_at": "2026-10-20T11:26:58.203895+08:00",
+        "status": "ok",
+        "note": "报告内价格"
       },
-      "change_24h_pct": {
-        "value": 0.56,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-24T04:00:00+08:00",
-        "status": "ok"
+      "catalyst": {
+        "value": "依据：REX-Osprey Staked SEI ETF 10-23 目标生效日剩 3 天（D2/轻度兑现，本轮下调）。",
+        "source": "integration",
+        "updated_at": "2026-10-20T11:26:58.203895+08:00",
+        "status": "ok",
+        "note": "共振依据"
       },
-      "change_7d_pct": {
-        "value": -1.53,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-24T04:00:00+08:00",
-        "status": "ok"
-      },
-      "technical": [
+      "risks": [
         {
-          "value": "M1：EMA20/60/120宽度0.68%／偏离+0.46%",
-          "source": "ema_squeeze",
-          "updated_at": "2026-10-24T04:00:00+08:00",
+          "value": "反向证据：OG.com SEI 永续首成交仅 2 笔约 $13，流动性极薄（2 周观察期至 10-30）；资金三窗口全负（昨日口径）。",
+          "source": "integration",
+          "updated_at": "2026-10-20T11:26:58.203895+08:00",
           "status": "ok"
         }
-      ],
-      "rs_vs_btc_7d": {
-        "value": -1.17,
-        "source": "ema_squeeze",
-        "updated_at": "2026-10-24T04:00:00+08:00",
-        "status": "ok",
-        "note": "相对BTC 7d超额(pct)"
-      }
-    },
-    "UNI": {
-      "symbol": "UNI",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
-    },
-    "USDC": {
-      "symbol": "USDC",
-      "ratings": {},
-      "linked_sources": [
-        "capital"
-      ],
-      "capital": {
-        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
-        "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "ok"
-      }
+      ]
     },
     "VANA": {
       "symbol": "VANA",
@@ -2389,21 +1730,63 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       }
     },
-    "WAL": {
-      "symbol": "WAL",
-      "ratings": {},
+    "ETH": {
+      "symbol": "ETH",
+      "ratings": {
+        "ema_squeeze": {
+          "value": "M0",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-23T00:00:00+08:00",
+          "status": "ok",
+          "note": "M1/M2/M3=密集,M0=不密集"
+        }
+      },
       "linked_sources": [
-        "capital"
+        "capital",
+        "ema_squeeze"
       ],
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
+      },
+      "price": {
+        "value": 2396.16,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-23T00:00:00+08:00",
+        "status": "ok"
+      },
+      "change_24h_pct": {
+        "value": -4.55,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-23T00:00:00+08:00",
+        "status": "ok"
+      },
+      "change_7d_pct": {
+        "value": -1.73,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-23T00:00:00+08:00",
+        "status": "ok"
+      },
+      "technical": [
+        {
+          "value": "M0：EMA20/60/120宽度2.54%／偏离+2.62%",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-23T00:00:00+08:00",
+          "status": "ok"
+        }
+      ],
+      "rs_vs_btc_7d": {
+        "value": -0.81,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-23T00:00:00+08:00",
+        "status": "ok",
+        "note": "相对BTC 7d超额(pct)"
       }
     },
     "WLFI": {
@@ -2424,7 +1807,7 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       },
       "price": {
@@ -2461,13 +1844,119 @@
         "note": "相对BTC 7d超额(pct)"
       }
     },
-    "XDC": {
-      "symbol": "XDC",
+    "BTC": {
+      "symbol": "BTC",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "USDC": {
+      "symbol": "USDC",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "OKB": {
+      "symbol": "OKB",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      }
+    },
+    "CPOOL": {
+      "symbol": "CPOOL",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      }
+    },
+    "ETHFI": {
+      "symbol": "ETHFI",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "SKY": {
+      "symbol": "SKY",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "ORCA": {
+      "symbol": "ORCA",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "POL": {
+      "symbol": "POL",
       "ratings": {
         "ema_squeeze": {
-          "value": "M1",
+          "value": "M0",
           "source": "ema_squeeze",
-          "updated_at": "2026-10-24T16:00:00+08:00",
+          "updated_at": "2026-10-07T12:00:00+08:00",
           "status": "ok",
           "note": "M1/M2/M3=密集,M0=不密集"
         }
@@ -2477,48 +1966,116 @@
         "ema_squeeze"
       ],
       "capital": {
-        "value": "数据不足",
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
       },
       "price": {
-        "value": 0.03316,
+        "value": 0.1035,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-24T16:00:00+08:00",
+        "updated_at": "2026-10-07T12:00:00+08:00",
         "status": "ok"
       },
       "change_24h_pct": {
-        "value": -2.7,
+        "value": -5.08,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-24T16:00:00+08:00",
+        "updated_at": "2026-10-07T12:00:00+08:00",
         "status": "ok"
       },
       "change_7d_pct": {
-        "value": -1.22,
+        "value": -11.04,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-24T16:00:00+08:00",
+        "updated_at": "2026-10-07T12:00:00+08:00",
         "status": "ok"
       },
       "technical": [
         {
-          "value": "M1：EMA20/60/120宽度1.40%／偏离+1.76%",
+          "value": "M0：EMA20/60/120宽度1.45%／偏离+5.12%",
           "source": "ema_squeeze",
-          "updated_at": "2026-10-24T16:00:00+08:00",
+          "updated_at": "2026-10-07T12:00:00+08:00",
           "status": "ok"
         }
       ],
       "rs_vs_btc_7d": {
-        "value": -0.02,
+        "value": -12.07,
         "source": "ema_squeeze",
-        "updated_at": "2026-10-24T16:00:00+08:00",
+        "updated_at": "2026-10-07T12:00:00+08:00",
         "status": "ok",
         "note": "相对BTC 7d超额(pct)"
       }
     },
-    "XLM": {
-      "symbol": "XLM",
+    "TRX": {
+      "symbol": "TRX",
+      "ratings": {
+        "ema_squeeze": {
+          "value": "M1",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-24T04:00:00+08:00",
+          "status": "ok",
+          "note": "M1/M2/M3=密集,M0=不密集"
+        }
+      },
+      "linked_sources": [
+        "capital",
+        "ema_squeeze"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      },
+      "price": {
+        "value": 0.329722,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T04:00:00+08:00",
+        "status": "ok"
+      },
+      "change_24h_pct": {
+        "value": 0.56,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T04:00:00+08:00",
+        "status": "ok"
+      },
+      "change_7d_pct": {
+        "value": -1.53,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T04:00:00+08:00",
+        "status": "ok"
+      },
+      "technical": [
+        {
+          "value": "M1：EMA20/60/120宽度0.68%／偏离+0.46%",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-24T04:00:00+08:00",
+          "status": "ok"
+        }
+      ],
+      "rs_vs_btc_7d": {
+        "value": -1.17,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T04:00:00+08:00",
+        "status": "ok",
+        "note": "相对BTC 7d超额(pct)"
+      }
+    },
+    "LEO": {
+      "symbol": "LEO",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      }
+    },
+    "DATA": {
+      "symbol": "DATA",
       "ratings": {},
       "linked_sources": [
         "capital"
@@ -2526,7 +2083,88 @@
       "capital": {
         "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "WAL": {
+      "symbol": "WAL",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "RL": {
+      "symbol": "RL",
+      "ratings": {
+        "ema_squeeze": {
+          "value": "M1",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-03T04:00:00+08:00",
+          "status": "ok",
+          "note": "M1/M2/M3=密集,M0=不密集"
+        }
+      },
+      "linked_sources": [
+        "capital",
+        "ema_squeeze"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      },
+      "price": {
+        "value": 0.99995,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-03T04:00:00+08:00",
+        "status": "ok"
+      },
+      "change_24h_pct": {
+        "value": -0.0,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-03T04:00:00+08:00",
+        "status": "ok"
+      },
+      "change_7d_pct": {
+        "value": -0.0,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-03T04:00:00+08:00",
+        "status": "ok"
+      },
+      "technical": [
+        {
+          "value": "M1：EMA20/60/120宽度0.00%／偏离+0.00%",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-03T04:00:00+08:00",
+          "status": "ok"
+        }
+      ],
+      "rs_vs_btc_7d": {
+        "value": -0.35,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-03T04:00:00+08:00",
+        "status": "ok",
+        "note": "相对BTC 7d超额(pct)"
+      }
+    },
+    "ENS": {
+      "symbol": "ENS",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
         "status": "ok"
       }
     },
@@ -2554,11 +2192,10 @@
         "integration"
       ],
       "capital": {
-        "value": "数据不足",
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
         "source": "capital",
-        "updated_at": "2026-10-25T05:02:00+08:00",
-        "status": "stale",
-        "note": "该资产本轮拉取失败"
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
       },
       "price": {
         "value": 0.07684,
@@ -2615,6 +2252,363 @@
           "status": "ok"
         }
       ]
+    },
+    "MNT": {
+      "symbol": "MNT",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      }
+    },
+    "XDC": {
+      "symbol": "XDC",
+      "ratings": {
+        "ema_squeeze": {
+          "value": "M1",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-24T16:00:00+08:00",
+          "status": "ok",
+          "note": "M1/M2/M3=密集,M0=不密集"
+        }
+      },
+      "linked_sources": [
+        "capital",
+        "ema_squeeze"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      },
+      "price": {
+        "value": 0.03316,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T16:00:00+08:00",
+        "status": "ok"
+      },
+      "change_24h_pct": {
+        "value": -2.7,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T16:00:00+08:00",
+        "status": "ok"
+      },
+      "change_7d_pct": {
+        "value": -1.22,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T16:00:00+08:00",
+        "status": "ok"
+      },
+      "technical": [
+        {
+          "value": "M1：EMA20/60/120宽度1.40%／偏离+1.76%",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-24T16:00:00+08:00",
+          "status": "ok"
+        }
+      ],
+      "rs_vs_btc_7d": {
+        "value": -0.02,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T16:00:00+08:00",
+        "status": "ok",
+        "note": "相对BTC 7d超额(pct)"
+      }
+    },
+    "CCD": {
+      "symbol": "CCD",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      }
+    },
+    "TIA": {
+      "symbol": "TIA",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "ASTER": {
+      "symbol": "ASTER",
+      "ratings": {
+        "ema_squeeze": {
+          "value": "M2",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-09T16:00:00+08:00",
+          "status": "ok",
+          "note": "M1/M2/M3=密集,M0=不密集"
+        },
+        "integration": {
+          "value": "B",
+          "source": "integration",
+          "updated_at": "2026-10-20T11:26:58.203895+08:00",
+          "status": "ok",
+          "note": "B级观察（新增）"
+        }
+      },
+      "linked_sources": [
+        "capital",
+        "ema_squeeze",
+        "integration"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      },
+      "price": {
+        "value": 0.7,
+        "source": "integration",
+        "updated_at": "2026-10-20T11:26:58.203895+08:00",
+        "status": "ok",
+        "note": "报告内价格"
+      },
+      "change_24h_pct": {
+        "value": -1.95,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-09T16:00:00+08:00",
+        "status": "ok"
+      },
+      "change_7d_pct": {
+        "value": -6.6,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-09T16:00:00+08:00",
+        "status": "ok"
+      },
+      "technical": [
+        {
+          "value": "M2：EMA20/60/120宽度1.66%／偏离+2.34%",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-09T16:00:00+08:00",
+          "status": "ok"
+        }
+      ],
+      "rs_vs_btc_7d": {
+        "value": -2.55,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-09T16:00:00+08:00",
+        "status": "ok",
+        "note": "相对BTC 7d超额(pct)"
+      },
+      "catalyst": {
+        "value": "依据：CZ 发文称买入长期持有（价格一度 +25% 后回吐，现约 $0.7026）＋阶段 6 战略回购 $1.4M 运行中；未启动→轻度兑现（D0）。",
+        "source": "integration",
+        "updated_at": "2026-10-20T11:26:58.203895+08:00",
+        "status": "ok",
+        "note": "共振依据"
+      }
+    },
+    "UNI": {
+      "symbol": "UNI",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "KNTQ": {
+      "symbol": "KNTQ",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      }
+    },
+    "XLM": {
+      "symbol": "XLM",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "GRVT": {
+      "symbol": "GRVT",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      }
+    },
+    "ATH": {
+      "symbol": "ATH",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      }
+    },
+    "BGB": {
+      "symbol": "BGB",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "数据不足",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "stale",
+        "note": "该资产本轮拉取失败"
+      }
+    },
+    "LIT": {
+      "symbol": "LIT",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "GMX": {
+      "symbol": "GMX",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "MORPHO": {
+      "symbol": "MORPHO",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
+    },
+    "NEAR": {
+      "symbol": "NEAR",
+      "ratings": {
+        "ema_squeeze": {
+          "value": "M0",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-24T04:00:00+08:00",
+          "status": "ok",
+          "note": "M1/M2/M3=密集,M0=不密集"
+        }
+      },
+      "linked_sources": [
+        "capital",
+        "ema_squeeze"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      },
+      "price": {
+        "value": 4.7336,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T04:00:00+08:00",
+        "status": "ok"
+      },
+      "change_24h_pct": {
+        "value": -3.73,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T04:00:00+08:00",
+        "status": "ok"
+      },
+      "change_7d_pct": {
+        "value": -5.84,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T04:00:00+08:00",
+        "status": "ok"
+      },
+      "technical": [
+        {
+          "value": "M0：EMA20/60/120宽度1.58%／偏离+4.75%",
+          "source": "ema_squeeze",
+          "updated_at": "2026-10-24T04:00:00+08:00",
+          "status": "ok"
+        }
+      ],
+      "rs_vs_btc_7d": {
+        "value": -5.48,
+        "source": "ema_squeeze",
+        "updated_at": "2026-10-24T04:00:00+08:00",
+        "status": "ok",
+        "note": "相对BTC 7d超额(pct)"
+      }
+    },
+    "JST": {
+      "symbol": "JST",
+      "ratings": {},
+      "linked_sources": [
+        "capital"
+      ],
+      "capital": {
+        "value": "强证据（klines 1h taker-buy聚合，非逐笔）",
+        "source": "capital",
+        "updated_at": "2026-10-25T09:02:00+08:00",
+        "status": "ok"
+      }
     },
     "ADA": {
       "symbol": "ADA",
